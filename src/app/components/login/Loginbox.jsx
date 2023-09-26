@@ -2,7 +2,7 @@ import React from "react";
 import CustomButton from "../Button/CustomButton";
 import Link from "next/link";
 
-const login = () => {
+const Loginbox = () => {
   return (
     <section>
       <div className="spacing-pad justify-center p-24 bg-white">
@@ -46,4 +46,4 @@ const login = () => {
   );
 };
 
-export default login;
+export default Loginbox;
