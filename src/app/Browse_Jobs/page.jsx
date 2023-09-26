@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Input } from "postcss";
 import React from "react";
 
@@ -26,8 +27,85 @@ const page = () => {
             <button>Find jobs</button>
           </div>
         </div>
-        <br></br>
       </div>
+      <div className="line-divider h-1 "></div>
+
+      <div className="recommendedSection p-10 bg-white ">
+        <div className="RecommendedForYou text-center">Recommended For you</div>
+      </div>
+
+    <div className="box_3Grid flex items-center px-10 bg-white">
+    <div className="grid_cotiner_3 flex px-5">
+        <div className="grid_apply">
+          <div className="applyboxborder p-8">
+            <div className="inside_border_apply">
+              <div className="flex gap-5">
+                <div className="icon_logo_apply">
+                  <Image
+                    width={88}
+                    height={88}
+                    src="/Assets/Images/BrowseJobs/Logo_company_browse.png"
+                  />
+                </div>
+                <div className="title_description_apply">
+                  <div className="title_company_apply">Customer Service Representative - Chat and Call Support</div>
+                  <div className="location_apply">location_apply</div>
+                  <div className="category_apply">category_apply</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="grid_cotiner_3 flex px-5">
+        <div className="grid_apply">
+          <div className="applyboxborder p-8">
+            <div className="inside_border_apply">
+              <div className="flex gap-5">
+                <div className="icon_logo_apply">
+                  <Image
+                    width={88}
+                    height={88}
+                    src="/Assets/Images/BrowseJobs/Logo_company_browse.png"
+                  />
+                </div>
+                <div className="title_description_apply">
+                  <div className="title_company_apply">Customer Service Representative - Chat and Call Support</div>
+                  <div className="location_apply">location_apply</div>
+                  <div className="category_apply">category_apply</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="grid_cotiner_3 flex px-5">
+        <div className="grid_apply">
+          <div className="applyboxborder p-8">
+            <div className="inside_border_apply">
+              <div className="flex gap-5">
+                <div className="icon_logo_apply">
+                  <Image
+                    width={88}
+                    height={88}
+                    src="/Assets/Images/BrowseJobs/Logo_company_browse.png"
+                  />
+                </div>
+                <div className="title_description_apply">
+                  <div className="title_company_apply">Customer Service Representative - Chat and Call Support</div>
+                  <div className="location_apply">location_apply</div>
+                  <div className="category_apply">category_apply</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      
+      
     </section>
   );
 };
