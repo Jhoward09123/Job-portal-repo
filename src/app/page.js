@@ -1,6 +1,6 @@
 
 
-import Nav from "./components/navigation/Nav";
+
 import Loginbox from "./components/login/Loginbox";
 import { Poppins } from "next/font/google";
 
@@ -15,7 +15,7 @@ const poppins = Poppins({
 export default function Home() {
   return (
     <main className={poppins.className}>
-      <Nav />
+    
       <Loginbox />
     </main>
   );

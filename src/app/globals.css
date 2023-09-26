@@ -16,11 +16,7 @@
   }
 }
 
-
-
-
 body {
-  
   font-family: "poppins";
 
   color: rgb(var(--foreground-rgb));
@@ -32,32 +28,26 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-
 /* Mine */
 
 /* 040D54 */
 
-.primary-darkblue{
-  background-color: #040C54;
+.primary-darkblue {
+  background-color: #040c54;
 }
 
-
 .ul_nav {
-
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  
 }
 
 .nav_left {
   float: left;
- 
 }
 
 .nav_left a {
-  
   display: block;
   color: white;
   text-align: center;
@@ -69,16 +59,15 @@ body {
   background-color: #1111;
 }
 
-.about-float-right{
-  float:right;
+.about-float-right {
+  float: right;
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
- 
 }
 
-.border_login{
+.border_login {
   border: solid black 1px;
   height: 524px;
   width: 852px;
@@ -88,31 +77,65 @@ body {
   padding-right: 100px;
 }
 
-.spacing-pad{
+.spacing-pad {
   display: flex;
   justify-content: center;
 }
 
-.title-text-login{
-font-weight: 400;
-font-size: 24px;
-font-weight: bold;
-
+.title-text-login {
+  font-weight: 400;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.white_bg_fff{
+.white_bg_fff {
   background-color: white;
-  
 }
 
-.input_login{
-  width: 100%; 
+.input_login {
+  width: 100%;
   border-radius: 10px;
   padding-left: 20px;
   border: black 1px solid;
   height: 55px;
 }
 
+/* home portal */
+.Job_title_input {
+  padding-left: 20px;
+  width: 405px;
+  height: 71px;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 30px;
+  border: 1px solid #000;
+  background-color: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.location_input {
+  padding-left: 20px;
+  width: 405px;
+  height: 71px;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 30px;
+  border: 1px solid #000;
+  background-color: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.find_button {
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #040c53;
+  color: white;
+}
+
+/* home portal end */
 
 /* Mine end */
-
