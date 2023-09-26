@@ -1,26 +1,42 @@
 import React from "react";
 import Image from "next/image";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-900">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="" className="flex items-center">
-          <img
-            src="https://flowbite.com/docs/images/logo.svg"
-            className="h-8 mr-3"
-            alt="Flowbite Logo"
-          />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Job portal
-          </span>
-        </a>
-      
-      <div>
-        Profile
-      </div>
-       
-      </div>
+    <nav className="p-5 primary-darkblue px-28">
+      <ul className="ul_nav items-center">
+        <li className="nav_left">
+          <a className="active" href="#home">
+            <div className="flex items-center gap-4">
+              <div className="logo">
+                <Image
+                  width={55}
+                  height={56}
+                  src="/Assets/Images/Nav/LOGO JOB PORTAL.png"
+                />
+              </div>
+              <div className="job-portal-name text-2xl">
+                <b>Job Portal</b>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li className="nav_left mt-4">
+          <a className="font-normal" href="Browse_Jobs">
+            Home
+          </a>
+        </li>
+        <li className="about-float-right mt-4">
+          <div className="flex">
+            <Image
+              width={36.75}
+              height={38}
+              src="/Assets/Images/Nav/user-solid 1.png"
+            />
+          </div>
+        </li>
+      </ul>
     </nav>
   );
 };
