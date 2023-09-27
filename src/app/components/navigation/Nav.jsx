@@ -1,8 +1,11 @@
+'use client'
+
 import React from "react";
 import Image from "next/image";
-import { Link } from "react-router-dom";
+import Modal from "../Modals/Modal"
 
 const Nav = () => {
+
   return (
     <nav className="p-5 primary-darkblue px-28">
       <ul className="ul_nav items-center">
@@ -29,11 +32,13 @@ const Nav = () => {
         </li>
         <li className="about-float-right mt-4">
           <div className="flex">
-            <Image
-              width={36.75}
-              height={38}
-              src="/Assets/Images/Nav/user-solid 1.png"
-            />
+          
+             
+        <button>
+          
+            <Modal />
+         
+        </button>
           </div>
         </li>
       </ul>
