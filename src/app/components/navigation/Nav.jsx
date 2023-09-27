@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import Modal from "../Modals/Modal";
+import Link from "next/link";
 
 const Nav = () => {
   return (
@@ -25,9 +26,11 @@ const Nav = () => {
           </a>
         </li>
         <li className="nav_left mt-4">
-          <a className="font-normal" href="Browse_Jobs">
+         
+          <a className="font-normal" href="./">
             Home
           </a>
+        
         </li>
         <li className="about-float-right ">
           <div className="flex">
