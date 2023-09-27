@@ -2,6 +2,8 @@ import React from "react";
 import { useState } from "react";
 import Image from "next/image";
 
+import Link from "next/link";
+
 const Modal = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -65,7 +67,7 @@ const Modal = () => {
                 </div>
                 <div className="grid gap-10">
                   <div className="">
-                    <a className="font-normal" href="./login">
+                    <Link href="/register">
                       <button
                         onClick={closeModal}
                         type="button"
@@ -74,7 +76,7 @@ const Modal = () => {
                       >
                         Sign In
                       </button>
-                    </a>
+                    </Link>
                   </div>
                   <div className="IdonthaveACc">
                     <div className="idonthave">
@@ -84,7 +86,9 @@ const Modal = () => {
                         className="text-black btn_idont_have"
                         data-modal-hide="defaultModal"
                       >
-                        No, I don't have an account
+                        <Link href="/register">
+                          No, I don't have an account
+                        </Link>
                       </button>
                     </div>
                   </div>
