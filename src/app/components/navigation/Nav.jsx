@@ -1,11 +1,10 @@
-'use client'
+"use client";
 
 import React from "react";
 import Image from "next/image";
-import Modal from "../Modals/Modal"
+import Modal from "../Modals/Modal";
 
 const Nav = () => {
-
   return (
     <nav className="p-5 primary-darkblue px-28">
       <ul className="ul_nav items-center">
@@ -30,15 +29,11 @@ const Nav = () => {
             Home
           </a>
         </li>
-        <li className="about-float-right mt-4">
+        <li className="about-float-right ">
           <div className="flex">
-          
-             
-        <button>
-          
-            <Modal />
-         
-        </button>
+            <button>
+              <Modal />
+            </button>
           </div>
         </li>
       </ul>

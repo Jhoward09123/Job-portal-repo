@@ -135,6 +135,30 @@ body {
   border: 1px solid #000;
   background-color: white;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.styled-select {
+  width: 100px;
+  height: 17px;
+  overflow: hidden;
+  overflow: -moz-hidden-unscrollable;
+ 
+  border: 2px double red;
+  display: inline-block;
+  position: relative;
+}
+
+.styled-select select {
+  background: transparent;
+  -webkit-appearance: none;
+  width: 100px;
+  font-size: 11px;
+  border: 0;
+  height: 17px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .find_button {
@@ -284,6 +308,10 @@ font-weight: 500;
 line-height: normal;
 }
 
+
+.modal_size{
+  width: 600px;
+}
 
 /* Nav Modal end*/
 

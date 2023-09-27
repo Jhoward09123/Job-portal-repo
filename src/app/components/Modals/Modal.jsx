@@ -38,20 +38,20 @@ const Modal = () => {
     {isModalOpen && (
       <div
         id="defaultModal"
-        className="fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full"
+        className="fixed top-0 left-0 right-0 z-50 w-full p-28 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full"
         tabIndex="-1"
         aria-hidden="true"
       >
-        <div className="relative w-full max-w-2xl ">
+        <div className="relative w-full flex justify-center">
           {/* Modal content */}
-          <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
+          <div className="modal_size relative bg-white rounded-lg shadow dark:bg-gray-700 ">
             {/* Modal header */}
             <div className="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
              
               <button
                 onClick={closeModal}
                 type="button"
-                className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                className="text-gray-400 bg-transparent  hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
                 data-modal-hide="defaultModal"
               >
                      <u>Close</u>
@@ -62,8 +62,8 @@ const Modal = () => {
             <div className="p-6 space-y-6">
                <div className="logo_account text-black flex justify-center">
                <Image
-                width={36.75}
-                height={38}
+                width={136}
+                height={136}
                 src="/Assets/Images/modal images/do you have an acc profile.png"
               />
                </div>
