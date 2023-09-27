@@ -1,9 +1,9 @@
 
 
 
-import Loginbox from "./components/login/Loginbox";
-import { Poppins } from "next/font/google";
 
+import { Poppins } from "next/font/google";
+import HomePage from "./components/HomePage/HomePage"
 
 const poppins = Poppins({
   weight: '400',
@@ -11,12 +11,11 @@ const poppins = Poppins({
   display: 'swap',
 })
 
-
 export default function Home() {
   return (
     <main className={poppins.className}>
     
-      <Loginbox />
+      <HomePage />
     </main>
   );
 }
