@@ -135,7 +135,6 @@ body {
   border: 1px solid #000;
   background-color: white;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
 }
 
 .styled-select {
@@ -143,7 +142,7 @@ body {
   height: 17px;
   overflow: hidden;
   overflow: -moz-hidden-unscrollable;
- 
+
   border: 2px double red;
   display: inline-block;
   position: relative;
@@ -235,19 +234,18 @@ body {
   line-height: normal;
 }
 
-.title_description_apply{
+.title_description_apply {
   display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 9px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
 }
 
-
-.apply_btn_brows{
-background-color: #040c53;
-color: white;
-border-radius: 10px;
-padding: 10px 20px;
+.apply_btn_brows {
+  background-color: #040c53;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
 }
 
 /* home portal end */
@@ -281,36 +279,52 @@ padding: 10px 20px;
   cursor: pointer;
 }
 
-.btn_signin{
-padding: 10px 20px;
-justify-content: center;
-align-items: center;
-border-radius: 10px;
-background: #040C53;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+.btn_signin {
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #040c53;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
-.btn_idont_have{
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-text-decoration-line: underline;
+.btn_idont_have {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
 }
 
-.question{
+.question {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.modal_size {
+  width: 600px;
+}
+
+.box_left {
+  width: 447px;
+  height: 727px;
+}
+
+.box_right {
+  width: 623px;
+  height: 727px;
+}
+
+.textUpload{
   font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-}
-
-
-.modal_size{
-  width: 600px;
 }
 
 /* Nav Modal end*/

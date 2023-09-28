@@ -31,13 +31,8 @@ const page = () => {
           </div>
 
           <div className="flex gap-10 justify-center">
-          
-              <CustomButton
-                backgroundColor="#040D54"
-                color="#fff"
-                text="Login"
-              />
-           
+            <CustomButton backgroundColor="#040D54" color="#fff" text="Login" />
+
             <CustomButton color="#000" text="Register" underline={true} />
           </div>
         </div>

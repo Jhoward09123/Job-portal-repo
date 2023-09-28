@@ -26,11 +26,9 @@ const Nav = () => {
           </a>
         </li>
         <li className="nav_left mt-4">
-         
           <a className="font-normal" href="./">
             Home
           </a>
-        
         </li>
         <li className="about-float-right ">
           <div className="flex">
