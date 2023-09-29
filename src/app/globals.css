@@ -291,6 +291,20 @@ body {
   line-height: normal;
 }
 
+.btn_signin_signup {
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #969696;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+
 .btn_idont_have {
   font-size: 24px;
   font-style: normal;

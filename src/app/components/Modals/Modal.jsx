@@ -65,9 +65,9 @@ const Modal = () => {
                 <div className="question text-black pb-4">
                   Do you have an account?
                 </div>
-                <div className="grid gap-10">
+                <div className=" gap-10 flex justify-center">
                   <div className="">
-                    <Link href="/register">
+                    <Link href="/login">
                       <button
                         onClick={closeModal}
                         type="button"
@@ -78,19 +78,16 @@ const Modal = () => {
                       </button>
                     </Link>
                   </div>
-                  <div className="IdonthaveACc">
-                    <div className="idonthave">
-                      <button
-                        onClick={closeModal}
-                        type="button"
-                        className="text-black btn_idont_have"
-                        data-modal-hide="defaultModal"
-                      >
-                        <Link href="/register">
-                          No, I don't have an account
-                        </Link>
-                      </button>
-                    </div>
+
+                  <div className="idonthave">
+                    <button
+                      onClick={closeModal}
+                      type="button"
+                      className="btn_signin_signup"
+                      data-modal-hide="defaultModal"
+                    >
+                      <Link href="/register">Sign up</Link>
+                    </button>
                   </div>
                 </div>
               </div>
